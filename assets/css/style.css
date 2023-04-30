@@ -132,6 +132,7 @@ p {
   line-height: 50px;
   letter-spacing: 0.2px;
   color: #252b42;
+  padding-bottom: 30px;
 }
 .our-doctors p {
   font-size: 14px;
@@ -164,6 +165,32 @@ p {
   width: 80px;
   color: white;
   background: #fc724d;
+}
+/* leading medicine section */
+.leading-medicine-img img{
+  height:400px;
+  
+}
+.leading-medicine h2{
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  padding-bottom: 30px;
+}
+.leading-medicine p{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+
+}
+.leading-medicine a{
+  text-decoration: none;
+  color: #fc724d;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
 /* media query */
