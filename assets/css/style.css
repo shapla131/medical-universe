@@ -328,15 +328,16 @@ p {
     color: #fc724d;
   }
   .impression h2 {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 35px;
     letter-spacing: 0.2px;
     color: #252b42;
   }
   .impression p {
-    font-size: 10px;
-    line-height: 15px;
-    letter-spacing: 0.2px;
+    font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
   }
   .impression-card {
     background: #ffffff;
@@ -353,16 +354,16 @@ p {
 /* our-doctors-section */
 @media only screen and (max-width: 767px) {
   .our-doctors h2 {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 30px;
     letter-spacing: 0.1px;
     color: #252b42;
   }
   .our-doctors p {
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 0.1px;
-    color: #737373;
+    font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
   }
   .our-doctors a {
     text-decoration: none;
