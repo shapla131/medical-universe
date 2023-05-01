@@ -167,30 +167,110 @@ p {
   background: #fc724d;
 }
 /* leading medicine section */
-.leading-medicine-img img{
-  height:400px;
-  
+.leading-medicine-img img {
+  height: 400px;
 }
-.leading-medicine h2{
+.leading-medicine h2 {
   font-size: 40px;
   line-height: 50px;
   letter-spacing: 0.2px;
   color: #252b42;
   padding-bottom: 30px;
 }
-.leading-medicine p{
+.leading-medicine p {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #737373;
-
 }
-.leading-medicine a{
+.leading-medicine a {
   text-decoration: none;
   color: #fc724d;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.2px;
+}
+
+.our-products h6 {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #fc724d;
+}
+
+.our-products h2 {
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.our-products p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.products-card-img {
+  background: url(/assets/img/product/product-1.png);
+  height: 400px;
+  background-size: cover;
+}
+.products-card-btn {
+  height: 40px;
+  width: 80px;
+  padding: 5px 8px;
+  background: red;
+  color: white;
+}
+
+.products-card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 230px;
+}
+
+.products-card-icon i {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: white;
+  color: black;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-products-card-content a {
+  text-decoration: none;
+  color: #fc724d;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.our-products-card-content h6 {
+  height: 60px;
+  width: 150px;
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.our-products-card-content p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.our-products-card-content-btn {
+  height: 40px;
+  width: 150px;
+  background: white;
+  color: #fc724d;
+  border: 1px solid #fc724d;
+  border-radius: 25px;
 }
 
 /* media query */
@@ -335,9 +415,9 @@ p {
   }
   .impression p {
     font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  color: #737373;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
   }
   .impression-card {
     background: #ffffff;
@@ -361,9 +441,9 @@ p {
   }
   .our-doctors p {
     font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  color: #737373;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
   }
   .our-doctors a {
     text-decoration: none;
