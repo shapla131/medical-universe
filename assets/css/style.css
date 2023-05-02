@@ -349,7 +349,6 @@ p {
 .our-team-card img {
   width: 100%;
   object-fit: cover;
-  
 }
 .our-team-card h5 {
   font-size: 16px;
@@ -366,6 +365,37 @@ p {
 }
 
 /* our team section end */
+
+/* join us section start */
+.join-us h6 {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #fc724d;
+}
+.join-us h2 {
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.join-us p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.join-us input {
+  width: 500px;
+  border-radius: 0;
+}
+.join-us-btn {
+  border-radius: 0;
+  background: #fc724d;
+  color: white;
+  border: none;
+}
+/* join us section end */
 
 /* media query */
 @media only screen and (max-width: 991px) {
@@ -545,5 +575,19 @@ p {
     font-size: 10px;
     line-height: 20px;
     letter-spacing: 0.2px;
+  }
+}
+
+/* join us section */
+@media only screen and (max-width: 767px) {
+  .join-us input {
+    width: 350px;
+    border-radius: 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .join-us input {
+    width: 200px;
+    border-radius: 0;
   }
 }
