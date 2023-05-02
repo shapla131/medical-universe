@@ -299,36 +299,73 @@ p {
 }
 
 /* our expert section */
-.our-experts h6{
+.our-experts h6 {
   font-size: 14px;
   line-height: 2wpx;
   letter-spacing: 0.2px;
   color: #fc724d;
-
 }
-.our-experts h2{
+.our-experts h2 {
   font-size: 50px;
   line-height: 50px;
   letter-spacing: 0.2px;
   color: #252b42;
-
 }
-.our-expert p{
+.our-expert p {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #737373;
-
 }
-.experts-info img{
+.experts-info img {
   border-radius: 70px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
-.experts-info i{
-  color:#F3CD03;
-  font-size:20px;
-  margin-bottom:15px;
+.experts-info i {
+  color: #f3cd03;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
+
+/* our team section start */
+.our-team {
+  font-size: 14px;
+  line-height: 2wpx;
+  letter-spacing: 0.2px;
+  color: #fc724d;
+}
+.our-team h2 {
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.our-team p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.our-team-card img {
+  width: 100%;
+  background-size: cover;
+  
+}
+.our-team-card h5 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.our-team-card i {
+  font-size: 20px;
+}
+.our-team-card-shadow {
+  box-shadow: 5px 10px 18px #bbb9b987;
+  border-radius: 25px;
+}
+
+/* our team section end */
 
 /* media query */
 @media only screen and (max-width: 991px) {
