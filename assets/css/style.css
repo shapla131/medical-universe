@@ -348,7 +348,7 @@ p {
 }
 .our-team-card img {
   width: 100%;
-  background-size: cover;
+  object-fit: cover;
   
 }
 .our-team-card h5 {
