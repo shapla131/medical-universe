@@ -298,6 +298,38 @@ p {
   font-weight: 700;
 }
 
+/* our expert section */
+.our-experts h6{
+  font-size: 14px;
+  line-height: 2wpx;
+  letter-spacing: 0.2px;
+  color: #fc724d;
+
+}
+.our-experts h2{
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+
+}
+.our-expert p{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+
+}
+.experts-info img{
+  border-radius: 70px;
+  margin-bottom:20px;
+}
+.experts-info i{
+  color:#F3CD03;
+  font-size:20px;
+  margin-bottom:15px;
+}
+
 /* media query */
 @media only screen and (max-width: 991px) {
   .hero-img {
